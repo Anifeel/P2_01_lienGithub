@@ -4,16 +4,70 @@
         <meta charset="utf-8" />
         <link rel="stylesheet" href="styles.css" />
         <title>Votre hébergement de vacances</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet"> 
     </head>
 
     <body>
         <header>
-            
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou en pleine nature</p>
             <p>
                 <img src="images/logo/Reservia.svg" alt="logo Reservia"/>
+                <nav>
+                    <ul>
+                        <li><a href="Hebergements">Hébergements</a></li>
+                        <li><a href="Activites">Activités</a></li>
+                    </ul>            
+                </nav>            
             </p>
+            <p class="register"><a href="register">S'inscrire</a></p>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>          
+            <section>
+            <div id="container1">
+                <div class="recherche">
+                    <form method="get" action="#.php">
+                        <p>             
+                        <label for="ville"><img src=i class="fas fa-map-marker-alt"></i></label>:
+                        <input type="search" name="ville" id="ville" placeholder="Marseille, France" autofocus/>
+                        <!--icone localisation <i class="fas fa-map-marker-alt"></i>-->
+                        <input type="submit" value="Rechercher" />
+                        </p>
+                    </form>
+                </div>
+                <div class="filtres">
+                    <h2>Filtres</h2>
+                    <button type="button">Economique</button>
+                    <!--icone money <i class="fas fa-money-bill-wave"></i>-->
+                    <button type="button">Familial</button>
+                    <!--icone humain <i class="fas fa-child"></i>-->
+                    <button type="button">Romantique</button>
+                    <!--icone coeur <i class="fas fa-heart"></i>-->
+                    <button type="button">Animaux autorisés</button>
+                    <!--icone chien <i class="fas fa-dog"></i>-->
+                    <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    <!--icone information <i class="fas fa-info"></i>-->
+                </div>
+            </div>
+            </section>
+
+            <section>
+                <!--section hébergements>-->
+                <section>
+                    <!--bloc hébergements à Marseille-->
+                </section>
+                <aside>
+                    <!--bloc les plus populaires-->
+                </aside>
+            </section>
+
+            <section>
+                <!--section activités-->
+            </section>
+            
+            
+
+
+            
             
 
         </header>

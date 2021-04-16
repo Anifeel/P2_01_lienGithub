@@ -1,0 +1,22 @@
+*
+{
+    background-color: #F2F2F2;
+    font-family: Raleway,serif;
+}
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway-Regular.ttf");
+}
+#container1
+{
+    display: flex;
+}
+# <register>
+{
+    color: blue;
+
+}
+.register
+{
+    color: green;
+}
