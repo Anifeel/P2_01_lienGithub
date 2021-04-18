@@ -1,15 +1,69 @@
 *
 {
-    background-color: #F2F2F2;
-    font-family: Raleway,serif;
+    
+    font-family: "Raleway",serif;
 }
 @font-face {
-    font-family: Raleway;
-    src: url("Raleway-Regular.ttf");
+    font-family: "Raleway";
+    src: url("Raleway.ttf");
 }
-#container1
+
+.imgfilter
 {
     display: flex;
+    font-size: 5%;
+}
+/*header*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    margin-right: 30px;
+}
+
+/*main*/
+.hebergements
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    align-content: space-around;
+    justify-content: center;
+    width: 65%;
+}
+
+.cannebiere
+{
+    border-radius: 1% solid #AAA;
+}
+.element
+{
+    margin: auto;
+}
+
+.populaires
+{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F2F2F2;
+    flex-direction: column;
+    width: 20%;
+    position: relative;
+
+}
+
+.activities
+{
+    display: flex;
+    flex-wrap: wrap;
 }
 # <register>
 {
@@ -19,4 +73,18 @@
 .register
 {
     color: green;
+}
+
+.a_propos
+{
+    text-align: left;
+}
+
+.nos_hébergements
+{
+    text-align: left;
+}
+.assistance
+{
+    text-align: left;
 }
