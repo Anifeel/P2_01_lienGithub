@@ -13,6 +13,10 @@
     display: flex;
     font-size: 5%;
 }
+body{
+    max-width: 100%;
+    margin: auto;
+}
 /*header*/
 nav{
     display: flex;
@@ -29,51 +33,81 @@ nav li{
     margin-right: 30px;
 }
 
+
+ul li:hover{
+    border-top: #0065FC;
+}
+
+.imgfilter{
+    width: 15px;
+}
+
+.button:hover{
+    background-color: indianred;
+}
+
+#gps{
+    width: 2%;
+}
+
+#search{
+    display: flex;
+}
 /*main*/
-.hebergements
-{
+.filters{
     display: flex;
-    flex-wrap: wrap;
-    background-color: #F2F2F2;
-    align-content: space-around;
-    justify-content: center;
-    width: 65%;
+    border: red solid 3px;
 }
 
-.cannebiere
-{
-    border-radius: 1% solid #AAA;
-}
-.element
-{
-    margin: auto;
+
+.button:hover{
+    background-color: mediumslateblue;
 }
 
-.populaires
-{
+#accommodation{
     display: flex;
     flex-wrap: wrap;
-    background-color: #F2F2F2;
+    flex-direction: row;
+    align-content: space-between; /*ou space between*/
+    justify-content: space-around;
+    flex: 1; /*test*/
+    width: 50em; /*test*/
+    border-radius: 20px; /*test*/
+    background-color: #F2F2F2; /*test*/
+
+}
+article #accommodation {
+    border: 3px solid red;
+}
+
+#popular{
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 20%;
-    position: relative;
-
+    align-content: space-around;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #F2F2F2;
+    width: 25em;
 }
+
+
 
 .activities
 {
     display: flex;
     flex-wrap: wrap;
 }
-# <register>
+#activities img
+{
+    width: 200px;
+}
+#register
 {
     color: blue;
 
 }
-.register
-{
-    color: green;
-}
+
 
 .a_propos
 {
